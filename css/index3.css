@@ -247,6 +247,10 @@
     height: 120vh;
 }
 
+.contact .contact-form{
+    border:1px solid white;
+}
+
 .contact .section_title h3 {
     color: #fff;
 }
