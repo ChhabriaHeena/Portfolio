@@ -1,0 +1,386 @@
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.pb-35 {
+    padding-bottom: 35px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.section_padding {
+    padding: 100px 0;
+}
+
+.py-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/*** section title css***/
+
+.section_title {
+    position: relative;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.section_title h3 {
+    position: relative;
+    font-size: 36px;
+    text-transform: capitalize;
+    line-height: 1.14;
+    letter-spacing: 1.4px;
+    padding-bottom: 13px;
+}
+
+.section_title h3:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 2px;
+    bottom: -30px;
+    left: 50%;
+    background-color: #1957f3;
+    transform: translate(-50%, 0);
+}
+
+
+/*** buttons css***/
+
+.button {
+    background-color: #1957f3;
+    border: 2px solid #1957f3;
+    padding: 15px 20px;
+    box-shadow: inset 0 0 0 0 #fff;
+    letter-spacing: 1px;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.8s all;
+}
+
+.button:hover {
+    box-shadow: inset 12em 0 0 0 #fff;
+    color: #1957f3;
+}
+
+
+/*** Home ***/
+
+.cover-bg {
+    padding: 100px auto 100px auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cover-bg-content {
+    float: right;
+}
+
+.cover-bg-content ul {
+    list-style-type: none;
+}
+
+.cover-bg-content ul li {
+    text-align: center;
+    /* background-color: #1957f3; */
+    border: 2px solid #1957f3;
+    padding: 15px 20px;
+    /* box-shadow: inset 0 0 0 0 #fff; */
+    display: inline-block;
+    color: #fff;
+    margin: 20px auto;
+    font-size: 20px;
+    transition: 0.8s all;
+    border-radius: 50px;
+}
+
+.cover-bg-content ul li a {
+    color: white;
+}
+
+
+/* .cover-bg-content ul li:hover {
+    box-shadow: inset 12em 0 0 0 #fff;
+    color: #1957f3;
+} */
+
+.cover-bg-content ul li:hover {
+    background-color: #1957f3;
+    border: 1px solid white;
+}
+
+.para {
+    text-align: center;
+    margin-top: 35vh;
+    margin-bottom: 20vh;
+    margin-left: 180px;
+    margin-right: 50px;
+    color: #fff;
+    background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+    opacity: 0.7;
+}
+
+.para h4 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.para h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.para p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+/*** about section css***/
+
+.about .part_text h4 {
+    font-size: 24px;
+}
+
+.about .part_text p {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.about .part_text .info li {
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+
+/*** hire me section css***/
+
+.hire_me {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/lappy.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+
+.hire_me h2 {
+    color: #fff;
+    font-size: 52px;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+
+/*** service section css ***/
+
+.services .services_box {
+    border: 1px solid #fafafa;
+    transition: all 0.5s;
+}
+
+.services .services_box:hover {
+    box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.06);
+}
+
+.services .box {
+    position: relative;
+    padding: 50px;
+}
+
+.services .services_box .icon i {
+    color: #1957f3;
+    font-size: 38px;
+}
+
+.services .box_title {
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.services .box_title:before {
+    content: '';
+    display: inline-block;
+    width: 15%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(91, 52, 255, 0.2);
+}
+
+.services .services_box:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid #f7f7f7;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+
+/*** contact section css***/
+
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/contactinfo.jpg);
+    background-attachment: fixed;
+    height: 120vh;
+}
+
+.contact .section_title h3 {
+    color: #fff;
+}
+
+.contact .part-info {
+    background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.contact .info-block {
+    border-right: 1px solid #fff;
+}
+
+.contact .part-info .info-block .icon {
+    margin-bottom: 15px;
+}
+
+.contact .part-info .info-block .icon i {
+    display: inline-block;
+    color: #fff;
+    font-size: 38px;
+}
+
+.contact .part-info .info-block h5 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact .part-info .info-block p {
+    color: #fff;
+    opacity: 0.9;
+}
+
+.contact .part-info .col-md-4:last-child .info-block {
+    border-right: 0;
+}
+
+.contact .contact-form {
+    background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+    padding: 30px;
+}
+
+.contact .contact-form input,
+.contact .contact-form textarea {
+    color: #fff;
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 0;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.28);
+    margin-bottom: 10px;
+    font-size: 12px;
+    transition: 0.3s all;
+}
+
+.contact .contact-form input::placeholder,
+.contact .contact-form textarea::placeholder {
+    color: #fff;
+}
+
+.contact .contact-form input:focus,
+.contact .contact-form textarea:focus {
+    border: 1px solid #fff;
+    outline: none;
+    box-shadow: none;
+}
+
+.contact .contact-form textarea {
+    height: 120px;
+}
+
+
+/*** footer section css***/
+
+.footer {
+    background-color: #212121;
+    padding: 80px 0;
+}
+
+.footer .logo {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer .logo .custom_logo {
+    background-color: #1957f3;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 25px;
+    letter-spacing: 1px;
+    line-height: 2;
+    transform: skewX(30deg);
+}
+
+.footer .logo .custom_logo span {
+    transform: skewX(-30deg);
+}
+
+.footer .social_icon {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer .social_icon a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #252525;
+    transition: 0.5s all;
+}
+
+.footer .social_icon a i {
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer .social_icon a:hover {
+    background-color: #1957f3;
+}
+
+.footer .copy {
+    width: 100%;
+    padding-top: 30px;
+}
+
+.footer .copy h6 {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
