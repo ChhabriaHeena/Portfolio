@@ -247,9 +247,7 @@
     height: 120vh;
 }
 
-.contact .contact-form{
-    border:1px solid white;
-}
+
 
 .contact .section_title h3 {
     color: #fff;
@@ -302,7 +300,7 @@
     padding: 10px 15px;
     border-radius: 0;
     width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.28);
+    border: 1px solid white;
     margin-bottom: 10px;
     font-size: 12px;
     transition: 0.3s all;
