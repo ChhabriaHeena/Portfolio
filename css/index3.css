@@ -244,7 +244,9 @@
 .contact {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/contactinfo.jpg);
     background-attachment: fixed;
-    height: 200vh;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 
