@@ -154,7 +154,7 @@
 .about {
     height: 100%;
     padding-top: 110px;
-    
+    padding-bottom:150px;
 }
 
 .about .part_photo img {
@@ -162,7 +162,8 @@
     padding-bottom: 40px;
 }
 .about .part_text{
-    padding-bottom: 30px;
+    padding-top:40px;
+    padding-bottom: 70px;
 }
 .about .part_text h4 {
     font-size: 24px;
