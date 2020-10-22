@@ -140,8 +140,8 @@
 } */
 
 .cover-bg-content ul li a:hover {
-    background-color: #1957f3;
-    border: 1px solid white;
+    color: #1957f3;
+    /* border: 1px solid white; */
 }
 
 .para {
